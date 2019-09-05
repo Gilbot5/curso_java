@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="cliente" cacheShape="false" focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #b9cdd6;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <Button fx:id="Ravioles" layoutX="291.0" layoutY="356.0" mnemonicParsing="false" onAction="#agregarProductos" text="Comprar" textOverrun="CLIP">
+         <font>
+            <Font name="Calisto MT Italic" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow color="#f4a3a3" />
+         </effect></Button>
+      <Button cache="true" depthTest="ENABLE" layoutX="612.0" layoutY="79.0" mnemonicParsing="false" onAction="#realizarPedido" text="realizarPedido" textOverrun="CLIP">
+         <font>
+            <Font name="Calisto MT Bold Italic" size="18.0" />
+         </font>
+         <effect>
+            <Bloom threshold="0.9" />
+         </effect></Button>
+      <Button fx:id="Ñoquis" layoutX="291.0" layoutY="287.0" mnemonicParsing="false" onAction="#agregarProductos" text="Comprar" textOverrun="CLIP">
+         <font>
+            <Font name="Calisto MT Italic" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow color="#f4a3a3" />
+         </effect></Button>
+      <Button fx:id="Canelones" layoutX="665.0" layoutY="155.0" mnemonicParsing="false" onAction="#agregarProductos" text="Comprar" textOverrun="CLIP">
+         <font>
+            <Font name="Calisto MT Italic" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow color="#f4a3a3" />
+         </effect></Button>
+      <Button fx:id="Sorrentina" layoutX="291.0" layoutY="423.0" mnemonicParsing="false" onAction="#agregarProductos" text="Comprar" textOverrun="CLIP">
+         <font>
+            <Font name="Calisto MT Italic" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow color="#f4a3a3" />
+         </effect></Button>
+      <Button fx:id="Pan" layoutX="665.0" layoutY="287.0" mnemonicParsing="false" onAction="#agregarProductos" text="Comprar" textOverrun="CLIP">
+         <font>
+            <Font name="Calisto MT Italic" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow color="#f4a3a3" />
+         </effect></Button>
+      <Button fx:id="Bebida" layoutX="665.0" layoutY="425.0" mnemonicParsing="false" onAction="#agregarProductos" text="Comprar" textOverrun="CLIP">
+         <font>
+            <Font name="Calisto MT Italic" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow color="#f4a3a3" />
+         </effect></Button>
+      <Button fx:id="Frellenos" layoutX="291.0" layoutY="219.0" mnemonicParsing="false" onAction="#agregarProductos" text="Comprar" textOverrun="CLIP">
+         <font>
+            <Font name="Calisto MT Italic" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow color="#f4a3a3" />
+         </effect></Button>
+      <Button fx:id="Queso" layoutX="664.0" layoutY="219.0" mnemonicParsing="false" onAction="#agregarProductos" text="Comprar" textOverrun="CLIP">
+         <font>
+            <Font name="Calisto MT Italic" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow color="#f4a3a3" />
+         </effect></Button>
+      <Button fx:id="Fideos" layoutX="291.0" layoutY="155.0" mnemonicParsing="false" onAction="#agregarProductos" text="Comprar" textOverrun="CLIP">
+         <font>
+            <Font name="Calisto MT Italic" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow color="#f4a3a3" />
+         </effect></Button>
+      <Button fx:id="Salsa" layoutX="664.0" layoutY="356.0" mnemonicParsing="false" onAction="#agregarProductos" text="Comprar" textOverrun="CLIP">
+         <font>
+            <Font name="Calisto MT Italic" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow color="#f4a3a3" />
+         </effect></Button>
+      <Label layoutX="32.0" layoutY="427.0" prefHeight="17.0" prefWidth="203.0" text="Sorrentina Luccetti 100 grs: $170.16" textFill="#000000cb">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font></Label>
+      <Label layoutX="30.0" layoutY="360.0" prefHeight="17.0" prefWidth="210.0" text="Ravioles La salteña 100 grs: $165.55" textFill="#000000cb">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font></Label>
+      <Label layoutX="32.0" layoutY="284.0" prefHeight="32.0" prefWidth="228.0" text="Ñoquis Ciudad del Lago 100 grs: $130.24" textFill="#000000cb">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font></Label>
+      <Label layoutX="32.0" layoutY="216.0" prefHeight="32.0" prefWidth="210.0" text="Fideos rellenos Popis 100 grs: $150.33" textFill="#000000cb">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font></Label>
+      <Label layoutX="30.0" layoutY="148.0" prefHeight="39.0" prefWidth="196.0" text="Fideos Matarazzo 100 grs: $124.65" textFill="#000000cc">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font></Label>
+      <Label layoutX="400.0" layoutY="148.0" prefHeight="39.0" prefWidth="189.0" text="Canelones Acme 3 UNI: $172.78" textFill="#000000cc">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font></Label>
+      <Label layoutX="400.0" layoutY="213.0" prefHeight="39.0" prefWidth="179.0" text="Queso Ralladito 200 grs: $50" textFill="#000000cc">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font></Label>
+      <Label layoutX="400.0" layoutY="280.0" prefHeight="39.0" prefWidth="196.0" text="Pan Bimbo Artesanal 2 UNI: $45.98" textFill="#000000cb">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font></Label>
+      <Label layoutX="400.0" layoutY="349.0" prefHeight="39.0" prefWidth="189.0" text="Salsa Artesanal 200 grs: $78.05" textFill="#000000cc">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font></Label>
+      <Label layoutX="400.0" layoutY="418.0" prefHeight="39.0" prefWidth="189.0" text="Bebida Coca Cola 1.5 Lts: $76" textFill="#000000cd">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font></Label>
+      <Label fx:id="lbl" layoutX="21.0" layoutY="474.0" prefHeight="95.0" prefWidth="591.0">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font></Label>
+      <Label layoutX="257.0" layoutY="14.0" prefHeight="25.0" prefWidth="304.0" text=" FÁBRICA DE PASTAS &quot;LA GOLOSINA&quot; " textAlignment="CENTER">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+         <effect>
+            <Reflection />
+         </effect></Label>
+      <Label layoutX="31.0" layoutY="66.0" prefHeight="32.0" prefWidth="63.0" text=" Nombre: " textAlignment="CENTER" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font name="Berlin Sans FB" size="14.0" />
+         </font></Label>
+      <Label layoutX="31.0" layoutY="100.0" prefHeight="32.0" prefWidth="63.0" text=" Correo: ">
+         <font>
+            <Font name="Berlin Sans FB" size="14.0" />
+         </font></Label>
+      <TextField fx:id="user" blendMode="DARKEN" layoutX="92.0" layoutY="70.0" onAction="#realizarPedido" prefHeight="25.0" prefWidth="196.0">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font></TextField>
+      <TextField fx:id="mail" blendMode="DARKEN" layoutX="91.0" layoutY="105.0" onAction="#realizarPedido" prefHeight="25.0" prefWidth="196.0">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect></TextField>
+      <Button layoutX="634.0" layoutY="508.0" mnemonicParsing="false" onAction="#quitarProducto" text="BorrarProducto" textOverrun="CLIP">
+         <font>
+            <Font name="Calisto MT Bold Italic" size="16.0" />
+         </font>
+         <effect>
+            <Bloom threshold="0.9" />
+         </effect></Button>
+   </children>
+   <effect>
+      <ColorAdjust>
+         <input>
+            <DropShadow color="#93b6c5" />
+         </input>
+      </ColorAdjust>
+   </effect>
+</AnchorPane>
